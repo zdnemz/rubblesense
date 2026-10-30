@@ -1,0 +1,11 @@
+case,param,n,candidate,possible,no_pattern,low_sensitivity,confounded,invalid,candidate_correct,vibration_flagged
+vib_comp_on,0,2000,0,26,1974,0,0,0,0,48
+vib_comp_on,0.05,2000,0,16,1976,0,8,0,0,2000
+vib_comp_on,0.1,2000,1,20,1975,0,4,0,0,2000
+vib_comp_on,0.2,2000,0,12,1984,0,4,0,0,2000
+vib_comp_on,0.4,2000,0,16,1980,0,4,0,0,2000
+vib_comp_off,0,2000,0,21,1979,0,0,0,0,43
+vib_comp_off,0.05,2000,0,4,0,0,1996,0,0,2000
+vib_comp_off,0.1,2000,0,1,0,0,1999,0,0,2000
+vib_comp_off,0.2,2000,0,2,0,0,1998,0,0,2000
+vib_comp_off,0.4,2000,0,2,0,0,1998,0,0,2000

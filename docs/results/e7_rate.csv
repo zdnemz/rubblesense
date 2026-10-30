@@ -1,0 +1,7 @@
+case,param,n,candidate,possible,no_pattern,low_sensitivity,confounded,invalid,candidate_correct,vibration_flagged
+rate,7,300,300,0,0,0,0,0,300,6
+rate,10,300,300,0,0,0,0,0,300,10
+rate,16.8,300,300,0,0,0,0,0,300,15
+rate,24,300,300,0,0,0,0,0,300,6
+rate,36,300,300,0,0,0,0,0,290,4
+rate,45,300,300,0,0,0,0,0,268,7

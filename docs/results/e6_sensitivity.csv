@@ -1,0 +1,11 @@
+case,param,n,candidate,possible,no_pattern,low_sensitivity,confounded,invalid,candidate_correct,vibration_flagged
+sens_empty,8,500,0,5,495,0,0,0,0,5
+sens_person,8,500,500,0,0,0,0,0,500,5
+sens_empty,11,500,1,7,382,110,0,0,0,14
+sens_person,11,500,500,0,0,0,0,0,500,13
+sens_empty,16,500,0,10,0,490,0,0,0,12
+sens_person,16,500,500,0,0,0,0,0,500,18
+sens_empty,24,500,0,5,0,495,0,0,0,15
+sens_person,24,500,477,4,0,19,0,0,477,16
+sens_empty,32,500,0,3,0,497,0,0,0,9
+sens_person,32,500,213,32,0,255,0,0,212,13

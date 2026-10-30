@@ -1,0 +1,16 @@
+# Wokwi for VS Code / wokwi-cli project configuration (https://docs.wokwi.com/vscode/project-config).
+#
+#   pio run -e wokwi        builds the firmware this file points to, then "Wokwi: Start Simulator"
+#
+# The simulated ESP32's serial port (UART0, console + optional I/Q stream) is also offered on
+# localhost:4000 as an RFC2217 server, so that tools/send_iq_replay.py can feed recorded I/Q frames:
+#
+#   python3 tools/send_iq_replay.py --file scene.csv --port rfc2217://localhost:4000 \
+#           --cmd "src serial" --cmd scan --capture scans.jsonl --until-result 1
+#
+# (the wokwi environment already selects the UART0 flavour of the serial I/Q source)
+[wokwi]
+version = 1
+firmware = '.pio/build/wokwi/firmware.bin'
+elf = '.pio/build/wokwi/firmware.elf'
+rfc2217ServerPort = 4000

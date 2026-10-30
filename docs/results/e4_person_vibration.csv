@@ -1,0 +1,6 @@
+case,param,n,candidate,possible,no_pattern,low_sensitivity,confounded,invalid,candidate_correct,vibration_flagged
+person_vib,0,500,500,0,0,0,0,0,500,13
+person_vib,0.15,500,500,0,0,0,0,0,500,500
+person_vib,0.28,500,5,10,0,0,485,0,4,500
+person_vib,0.45,500,500,0,0,0,0,0,500,500
+person_vib,0.7,500,500,0,0,0,0,0,500,500
